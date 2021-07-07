@@ -1,0 +1,54 @@
+.AddressInput {
+    position: relative;
+    margin-right: 10px;
+}
+.AddressInput input {
+    position: relative;
+    padding-left: 15px;
+    height: 40px;
+    width: 90%;
+    border: 3px solid #E88C21;
+    border-radius: 5px;
+    font-family: Concert One,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 50px;
+    background: #FFBE47;
+    color: #7A3022;
+    margin-bottom: 5px;
+}
+.AddressInput input:focus {
+    outline: none;
+}
+.AddressInput__error {
+    position: relative;
+    font-family: Concert One,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: darkred;
+    padding-bottom: 15px;
+}
+@media screen and (max-width: 1919px) {
+
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1023px) {
+    .AddressInput input {
+        font-size: 18px;
+        padding-left: 3px;
+        margin-right: 30px;
+    }
+    .AddressInput__error {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 719px) {
+
+}

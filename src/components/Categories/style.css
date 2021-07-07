@@ -1,0 +1,102 @@
+.Categories {
+    margin-top: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 50px;
+    height: fit-content;
+}
+.Categories__category {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-family: Concert One,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 37px;
+    padding-left: 56px;
+    color: #7A3022;
+    margin-bottom: 78px;
+    transition: .3s;
+}
+.Categories__category:hover {
+    cursor: pointer;
+}
+.Categories__category--active .Categories__category {
+    color: #E88C21;
+    transition: .3s;
+}
+.Categories__category--active .Categories__category {
+    color: #7A3022;
+}
+
+
+.Categories__scroll--active {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-family: Concert One,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 37px;
+    padding-left: 56px;
+    margin-bottom: 78px;
+    color: #E88C21;
+    transition: .3s;
+}
+@media screen and (max-width: 1919px) {
+    .Categories {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .Categories {
+        width: 250px;
+        margin-right: 100px;
+    }
+    .Categories__category {
+        font-size: 34px;
+
+        padding-left: 16px;
+    }
+    .Categories__scroll--active {
+        font-size: 34px;
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .Categories {
+        width: 100%;
+        margin-right: 0;
+        flex-direction: row;
+        top: 110px;
+        justify-content: center;
+        background-color: #FFBE47;
+        z-index: 1000;
+        padding-bottom: 10px;
+    }
+    .Categories__category {
+        margin-bottom: 0;
+    }
+    .Categories__scroll--active {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .Categories {
+        background-color: #FFBE47;
+        z-index: 100;
+        width: 100%;
+        height: fit-content;
+        overflow: scroll;
+    }
+    .Categories__category {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,84 @@
+.Basket {
+    position: fixed;
+    top: 24px;
+    right: 100px;
+}
+.Basket__counter {
+    font-family: Concert One, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.Basket__icon {
+    position: relative;
+    z-index: 10;
+}
+.Basket__cost {
+    background-color: #7A3022;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    top: -130px;
+    left: 80px;
+    width: fit-content;
+}
+.Basket__amount {
+    background-color: #7A3022;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    top: -140px;
+    left: 70px;
+}
+@media screen and (max-width: 1919px) {
+
+}
+
+@media screen and (max-width: 1439px) {
+    .Basket__counter {
+        font-size: 34px;
+    }
+    .Basket__amount {
+        left: 80px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .Basket {
+        top: 180px;
+        z-index: 100;
+    }
+
+}
+
+@media screen and (max-width: 719px) {
+    .Basket {
+        left: 74%;
+    }
+    .Basket svg {
+        width: 50px;
+        height: auto;
+    }
+    .Basket__amount {
+        font-size: 24px;
+        left: 40px;
+        top: -80px;
+    }
+    .Basket__cost {
+        font-size: 24px;
+        left: 40px;
+        top: -70px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Basket {
+        top: 155px;
+        left: 70%;
+    }
+}

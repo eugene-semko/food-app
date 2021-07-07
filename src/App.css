@@ -1,0 +1,22 @@
+.App {
+    display: flex;
+    background-color: #FFBE47;
+}
+@media screen and (max-width: 1919px) {
+
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1023px) {
+    .App {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 719px) {
+}

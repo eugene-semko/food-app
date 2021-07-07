@@ -1,0 +1,29 @@
+.Product {
+    width: 861px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 130px;
+    min-height:fit-content;
+}
+@media screen and (max-width: 1919px) {
+
+}
+
+@media screen and (max-width: 1439px) {
+    .Product {
+        width: 431px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .Product {
+
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .Product {
+        max-width: 300px;
+        width: fit-content;
+    }
+}
